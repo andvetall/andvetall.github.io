@@ -372,7 +372,7 @@ body{
 	text-align: center;
 }
 .content__page{
-	margin-top: 60px;
+  margin-top: 60px;
 }
 .list{
 	display: flex;
@@ -496,6 +496,13 @@ h1  {
 .menu{
 	display: none;
 }
+.slider{
+  width: 60%;
+  margin: 20px auto;
+}
+.slider img{
+  margin: 0 auto;
+}
 
 
 
@@ -531,7 +538,8 @@ h1  {
 	.home__main{
 		display: contents;
 		font-family: gilroyB;
-	}
+  }
+  
 	hr{
 		display: none;
 	}
@@ -546,6 +554,12 @@ h1  {
 		width: 90%;
 	}
 	
-	
+	.slider{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .slider img{
+    margin: 0 auto;
+  }
   
 }

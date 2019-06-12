@@ -72,23 +72,23 @@ let imagesArr = [
         title: 'Online fashion store - Homepage',
         picture: "images/portfolio1.png",
         link: '#',
-        size: '70vw'
+        size: '50vw'
     },
     {
         title: 'Reebok Store - Concept',
         picture: "images/portfolio2.png",
         link: '#',
-        size: '70vw'
+        size: '50vw'
     },
     {
         title: 'Braun Landing Page - Concept',
         picture: "images/portfolio3.png",
         link: '#',
-        size: '70vw'
+        size: '50vw'
     }
 ]
 imagesArr.forEach(item => {
-    let elem = document.querySelector('#portfolio')
+    let elem = document.querySelector('.slider')
     .appendChild(document.createElement('div'))
     elem.style = `display: flex; flex-direction: column;`
     let img = elem.appendChild(document.createElement('img'))
